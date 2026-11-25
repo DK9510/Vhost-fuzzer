@@ -2,6 +2,7 @@
 Python script for fuzzing vhost with the SNI header in the TLS handshke.
 
 
+```
 PS C:\tmp> python3 .\vhost-fuzz-sni.1.0.py --help
 usage: vhost-fuzz-sni.1.0.py [-h] [-t TARGET] [-T TARGET_FILE] [-p PORT] -w WORDLIST [--path PATH] [--method METHOD]
                              [-H RAW_HEADERS] [--user-agent USER_AGENT] [--threads THREADS] [--timeout TIMEOUT]
@@ -49,3 +50,5 @@ options:
   --output-body         Include response body in CSV
 
 Only use against systems you own or are authorised to test.
+
+```
